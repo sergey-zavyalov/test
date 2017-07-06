@@ -24,6 +24,8 @@ namespace WebApplication3
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
+            string s = "test";
+
             if (env.IsDevelopment())
             {
                 //проверка
